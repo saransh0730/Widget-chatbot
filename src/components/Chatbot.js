@@ -11,7 +11,7 @@ const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const chatBodyRef = useRef(null);
 
-  const API_KEY = "AIzaSyD2gPipnqaPKI54waTLrrM7x0gXT69Iar4";
+  const API_KEY = "your API key";
 
   const handleSendMessage = async () => {
     if (input.trim() !== '' || file !== null) {
